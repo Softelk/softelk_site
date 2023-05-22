@@ -72,6 +72,11 @@ body {
     line-height: 1.4;
   }
 
+  .carousel-caption > h1,
+.carousel-caption > p {
+  color: whitesmoke; /* replace with your desired color */
+}
+
   .featurette-heading {
     font-size: 50px;
   }
