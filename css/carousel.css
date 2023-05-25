@@ -87,3 +87,23 @@ body {
     margin-top: 7rem;
   }
 }
+
+
+.image-wrapper {
+  
+  position: relative;
+  width: 140px;
+  height: 140px;
+  /* overflow: hidden; */
+  border-radius:75%;
+}
+
+.image-wrapper img {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  left: 50%;
+  top: 50%;
+  transform: translate(+50%, -50%);
+  object-fit: cover;
+}
